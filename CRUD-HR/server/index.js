@@ -13,6 +13,7 @@ password: 'password',
 database: 'employeeSystem'
 });
 
+
 app.post('/create'), (req, res) => {
     const name = req.body.name;
     const age = req.body.age;
